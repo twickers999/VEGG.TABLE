@@ -1,6 +1,6 @@
 $commitMsg = Get-Content -Path $args[0] -Raw
 # Regex: type(optional scope): description, optional (Closes|Relates to) #issue
-$pattern = '^(feat|fix|docs|refactor|test|chore)(\(.+\))?: .{1,50}(\s(Closes|Relates to) #\d+)?$'
+$pattern = '^(feat|fix|docs|refactor|test|chore)(\(.+\))?: .{1,100}(\s\(?(Closes|Relates to) #\d+\)?)?$'
 
 if ($commitMsg -notmatch $pattern) {
     Write-Error "Invalid commit message format."
