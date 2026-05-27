@@ -2,8 +2,8 @@
 
 public class Produce
 {
-    public int ProduceId { get; set; }
-    public string Name { get; set; }
+    public required int ProduceId { get; set; }
+    public required string Name { get; set; }
     public int Stock { get; set; } = 0;
     public double Price { get; set; } = 0;
     public double Weight { get; set; } = 0;
@@ -15,7 +15,7 @@ public class Produce
     public bool IsOnSale { get; set; } = false;
     public bool IsPurchased { get; set; } = false;
 
-    public int UserId { get; set; }
+    public required int UserId { get; set; }
 }
 public enum Category
 {
