@@ -3,7 +3,7 @@
 public class Produce
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public required string Name { get; set; }
     public int Stock { get; set; } = 0;
     public double Price { get; set; } = 0;
     public double Weight { get; set; } = 0;

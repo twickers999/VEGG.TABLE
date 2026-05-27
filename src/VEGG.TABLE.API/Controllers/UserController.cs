@@ -1,10 +1,8 @@
-﻿using System;
+﻿namespace VEGG.TABLE.API.Controllers;
 
-public class Class1
+[ApiController]
+[Route("api/[controller]")]
+public class UserController : ControllerBase
 {
-	public Class1()
-	{
-	}
+    // Your endpoints will go here
 }
-
-// User controller

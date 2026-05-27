@@ -1,8 +1,6 @@
-﻿using System;
+﻿namespace VEGG.TABLE.Core.Interfaces;
 
-public class Class1
+public interface IProduceRepository
 {
-	public Class1()
-	{
-	}
+    // Add repository methods here
 }

@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VEGG.TABLE.API/VEGG.TABLE.API.csproj" />
+    <Project Path="src/VEGG.TABLE.Client/VEGG.TABLE.Client.csproj" />
+    <Project Path="src/VEGG.TABLE.Core/VEGG.TABLE.Core.csproj" />
+    <Project Path="src/VEGG.TABLE.Infrastructure/VEGG.TABLE.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/VEGG.TABLE.UnitTests/VEGG.TABLE.UnitTests.csproj" />
+  </Folder>
+</Solution>

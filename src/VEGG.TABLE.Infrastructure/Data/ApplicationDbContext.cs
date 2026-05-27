@@ -4,7 +4,7 @@ namespace VEGG.TABLE.Infrastructure.Data;
 
 public class ApplicationDbContext
 {
-	public ApplicationDbContext()
-	{
-	}
+    public ApplicationDbContext()
+    {
+    }
 }
