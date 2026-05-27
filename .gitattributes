@@ -1,0 +1,12 @@
+# Normalize line endings to LF for all files
+* text=auto eol=lf
+
+# Explicitly ensure code and config files stay LF
+*.cs text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.rs text eol=lf
